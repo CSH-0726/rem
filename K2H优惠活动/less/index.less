@@ -1,0 +1,91 @@
+//引入适配文件
+@import './adapter.less';
+//引入变量文件
+@import './variable.less';
+//引入清除浏览器默认样式文件
+@import './reset.less';
+body{
+	background-color: #f7f4f1;
+}
+header{
+	width:100%;
+	height: 88rem/32;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #ff9b25;
+	i{
+		background-image: url("../images/back.png");
+		background-size: 20rem/32 32rem/32;
+		position: absolute;
+		left: 24rem/32;
+		top: 28rem/32;
+		width: 20rem/32;
+		height: 1rem;
+	}
+	span{
+		font-size: 1rem;
+		line-height: 88rem/32;
+		padding-left: 58rem/32;
+		color: #fff;
+		box-sizing: border-box;
+	}
+}
+section{
+	width: 100%;
+	padding-top: 88rem/32;
+	.saleOff{
+		width: 100%;
+		padding: 0 24rem/32;
+		box-sizing: border-box;
+		.top{
+			width: 100%;
+			height: 84rem/32;
+			position: relative;
+			top: 0;
+			left: 0;
+			p{
+				float: left;
+				padding: 28rem/32 0;
+				font-size: 28rem/32;
+			}
+			span{
+				float: right;
+				padding: 28rem/32 0;
+				font-size: 28rem/32;
+				color: #888;
+			}
+		}
+		.bottom{
+			width: 100%;
+			height: 226rem/32;
+			background-color: #fff;
+			border: 3px #ccc dashed;
+			box-sizing: border-box;
+			text-align: center;
+			img{
+				width:106rem/32;
+				height: 106rem/32;
+				padding-top: 38rem/32;
+				padding-bottom: 15rem/32;
+			}
+			p{
+				color:#aeaeae;
+				font-size: 26rem/32;
+			}
+		}
+	}
+	.font{
+		width: 100%;
+		margin-top: 100rem/32;
+		padding: 0 24rem/32;
+		box-sizing: border-box;
+		p{
+			font-size: 24rem/32;
+			color: #999;
+			line-height: 40rem/32;
+		}
+	}
+}
+	
+
